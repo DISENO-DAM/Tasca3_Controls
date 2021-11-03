@@ -35,6 +35,16 @@ public class HubInicioController {
 
     }
 
-    public void eventE3(ActionEvent actionEvent) {
+    public void eventE3(ActionEvent actionEvent) throws IOException {
+
+        System.out.println("Entro al 3");
+        Stage stage= new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("form-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 750, 700);
+        stage.setTitle("Tarea3 Formulario!");
+        stage.setScene(scene);
+        stage.show();
+        stage.setResizable(false);
+
     }
 }
