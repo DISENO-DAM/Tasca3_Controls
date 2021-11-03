@@ -34,6 +34,12 @@ public class Tarea2Controller {
         ud1="";
         ud2="";
         signo="";
+
+        Button boton= (Button) actionEvent.getSource();
+        if (boton.getText().equalsIgnoreCase("C")){
+            resultado.setText("");
+        }
+
     }
 
     public void resultado(ActionEvent actionEvent) {
@@ -47,15 +53,20 @@ public class Tarea2Controller {
                 Double resultMenos= Double.parseDouble(ud1) - Double.parseDouble(ud2) ;
                 resultado.setText(resultMenos.toString());
                 break;
+            case "/":
+                Double resultDivid= Double.parseDouble(ud1) / Double.parseDouble(ud2) ;
+                resultado.setText(resultDivid.toString());
+                break;
+            case "X":
+                Double resultPor= Double.parseDouble(ud1) * Double.parseDouble(ud2) ;
+                resultado.setText(resultPor.toString());
+                break;
             default:
         }
 
         borrarAction(actionEvent);
         numeros.setText(resultado.getText());
         ud1=resultado.getText();
-
-
-
 
 
     }
