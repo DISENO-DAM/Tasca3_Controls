@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="di.esteban.tasca3_controls.Tarea1CompletadoController">
+   <children>
+      <Text layoutX="76.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FELICIDADES COMPLETO EL LOGIN">
+         <font>
+            <Font name="Corbel Light" size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="loginUser" fill="#f20000" layoutX="86.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ho" textAlignment="CENTER" wrappingWidth="408.0">
+         <font>
+            <Font name="Corbel Light" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="di.esteban.tasca3_controls.Tarea3ControllerFormularioEnviado">
+   <children>
+      <Label fx:id="labelForm" layoutX="152.0" layoutY="257.0" prefHeight="269.0" prefWidth="308.0" alignment="CENTER" />
+      <ImageView fx:id="windows10" fitHeight="228.0" fitWidth="226.0" layoutX="202.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@windows10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="appleLogo" fitHeight="240.0" fitWidth="350.0" layoutX="139.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@AppleLogo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="linuxLogo" fitHeight="240.0" fitWidth="308.0" layoutX="152.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true"  visible="false">
+         <image>
+            <Image url="@LogoLinux.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
